@@ -5,7 +5,6 @@ import javax.annotation.Nonnull;
 import io.github.schntgaispock.slimehud.placeholder.PlaceholderManager;
 import io.github.schntgaispock.slimehud.translation.TranslationManager;
 import io.github.schntgaispock.slimehud.waila.HudController;
-import net.guizhanss.guizhanlibplugin.updater.GuizhanUpdater;
 import org.bstats.bukkit.Metrics;
 import org.bstats.charts.SimplePie;
 import org.bukkit.NamespacedKey;
@@ -55,9 +54,6 @@ public class SlimeHUD extends AbstractAddon {
         hudController = new HudController();
         translationManager = new TranslationManager();
 
-        if (getConfig().getBoolean("options.auto-update") && getDescription().getVersion().startsWith("Build")) {
-            GuizhanUpdater.start(this, getFile(), "SlimefunGuguProject", "SlimeHUD", "master");
-        }
     }
 
     @Override

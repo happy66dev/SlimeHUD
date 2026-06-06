@@ -46,3 +46,7 @@ https://user-images.githubusercontent.com/101147426/180625211-cbcfd01d-d418-4e6c
 
 *InfinityLib* by Mooy1
 *Lombok* by Project Lombok
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=happy66dev/SlimeHUD&type=Date)](https://star-history.com/#happy66dev/SlimeHUD&Date)

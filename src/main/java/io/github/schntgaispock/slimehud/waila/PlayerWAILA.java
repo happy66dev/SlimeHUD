@@ -19,6 +19,7 @@ import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.api.chat.TextComponent;
 
+@SuppressWarnings("deprecation")
 public class PlayerWAILA extends BukkitRunnable {
 
     final private @Nonnull

@@ -29,6 +29,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.function.Function;
 
+@SuppressWarnings("deprecation")
 public class HudController {
 
     // LinkedHashMaps preserve insertion order. Chances are, a MachineProcessHolder
